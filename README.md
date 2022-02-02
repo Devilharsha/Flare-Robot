@@ -30,7 +30,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Asta-vir/Flare-Robot.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Devilharsha/Flare-Robot.git)
 
 </details>  
 <details>
@@ -169,7 +169,7 @@ Note: the restart bat requires that User account control be disabled.
 For queries or any issues regarding the bot please open an issue ticket or visit us at [One Punch Support](https://t.me/Freia_Support)
 ## How to setup on Heroku 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Asta-vir/Flare-Robot.git) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Devilharsha/Flare-Robot.git) 
 
 
 ## Credits
