@@ -1,5 +1,5 @@
 {
-      "name": "FlareRobot",
+      "name": "Charizard Robot",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,7 +9,7 @@
          "Flare"
       ],   
   "logo":    "https://telegra.ph/file/96e7b15de9062f9800306.jpg",
- "repository": "https://github.com/Asta-vir/Flare-Robot",
+ "repository": "https://github.com/Devilharsha/Flare-Robot",
    "addons": [
       {
          "options": {
