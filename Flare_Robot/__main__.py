@@ -73,9 +73,9 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-GROUP_START_IMG = "https://telegra.ph/file/2cd6f97e0cf04d63cabf4.mp4"
+GROUP_START_IMG = "http://telegra.ph/file/01f207d11371857ee4c15.mp4"
 
-FLARE_PHOTO = "https://telegra.ph/file/2a171330f0ad1fc02465c.jpg"
+FLARE_PHOTO = "http://telegra.ph/file/19fd72c163512e38bac06.jpg"
 
 PM_START_TEXT = """
 ────「 {} 」────
@@ -84,11 +84,11 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 ➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/852e96d6c59f2ccad32df.jpg) ××
+➛ Try The Help Buttons Below To Know My Abilities[.](http://telegra.ph/file/fb311515d654a3c562c29.jpg) ××
 """
 
 HELP_STRINGS = """
-Hey there, I'm Flare Robot !
+Hey there, I'm Charizard Robot !
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
@@ -105,21 +105,21 @@ List of all the Modules:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add Flare To Your Group",
-                            url=f"https://telegram.dog/Flare_Robot?startgroup=true")
+                            text=f"Add Charizard To Your Group",
+                            url=f"https://telegram.dog/megacharizardXrobot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/OtaKu_Gang1"),
+                       InlineKeyboardButton(text="❔ network", url="https://t.me/Pegasus_Network"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="🚑 Support",
-                             url=f"https://telegram.dog/Freia_Support"),
+                             url=f"https://telegram.dog/SENKUCHAT"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/Freia_Updates")
+                             url="https://t.me/SENKUBOTS")
                      ], 
     ]
 
@@ -197,16 +197,16 @@ def test(update: Update, context: CallbackContext):
 @telethn.on(events.NewMessage(pattern="/check"))
 async def awake(event):
   ғʟᴀʀᴇ = event.sender.first_name
-  ғʟᴀʀᴇ = "**♡ I,m ғʟᴀʀᴇ ʀᴏʙᴏᴛ 愛** \n\n"
+  ғʟᴀʀᴇ = "**♡ I,m Charizard X 愛** \n\n"
   ғʟᴀʀᴇ += "**♡ I'm Working With sᴇxʏ Speed**\n\n"
   ғʟᴀʀᴇ += "**♡ ғʟᴀʀᴇ: LATEST Version**\n\n"
-  ғʟᴀʀᴇ += "**♡ My Creator:** [ᴀsᴛᴀ](t.me/Chifuyu_Matsuno_Kun)\n\n"
-  ғʟᴀʀᴇ += "**♡ ᴀɴʏ ɪssᴜᴇs ᴄᴏɴᴛᴀᴄᴛ ʜᴇʀᴇ @Freia_Support **\n\n"
+  ғʟᴀʀᴇ += "**♡ My Creator:** [harsha](t.me/harshahero)\n\n"
+  ғʟᴀʀᴇ += "**♡ ᴀɴʏ ɪssᴜᴇs ᴄᴏɴᴛᴀᴄᴛ ʜᴇʀᴇ @megacharizardXrobot **\n\n"
   ғʟᴀʀᴇ += "**♡ ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ 💘💘💘**\n\n"
   FLARE_BUTTON = [
       [
           Button.url("🚑 Support", f"https://t.me/{SUPPORT_CHAT}"),
-          Button.url("📢 Updates", "https://t.me/Freia_Updates")
+          Button.url("📢 Updates", "https://t.me/SENKUCHAT")
       ]
   ]
   await telethn.send_file(
@@ -273,11 +273,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="🚑 Support",
-                            url=f"https://telegram.dog/Freia_Support",
+                            url=f"https://telegram.dog/SENKUCHAT",
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://t.me/Freia_Updates",
+                            url="https://t.me/SENKUBOTS",
                         ),
                     ]
                 ]
@@ -396,7 +396,7 @@ def get_help(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Help",
-                                url="t.me/Flare_Robot?start=ghelp_{}".format(
+                                url="t.me/megacharizardXrobot?start=ghelp_{}".format(
                                     context.bot.username, module,
                                 ),
                             ),
@@ -412,7 +412,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Help",
-                            url="t.me/Flare_Robot?start=help".format(context.bot.username),
+                            url="t.me/megacharizardXrobot?start=help".format(context.bot.username),
                         ),
                     ],
                 ],
@@ -655,7 +655,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[hey! I am back from OYO!!](https://telegra.ph/file/926039375cac9825e1e58.jpg)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[hey! I am back from OYO!!](http://telegra.ph/file/01f207d11371857ee4c15.mp4)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
